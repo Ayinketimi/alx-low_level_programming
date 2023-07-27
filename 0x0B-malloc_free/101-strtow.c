@@ -62,7 +62,7 @@ char **matrix, *tmp;
 				while (s < e)
 					*tmp++ = str[s++];
 				*tmp = '\0';
-				matrix[y] = tmp - z	;
+				matrix[y] = tmp - z;
 				y++;
 				z = 0;
 			}
